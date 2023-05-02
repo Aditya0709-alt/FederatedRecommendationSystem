@@ -1,2 +1,3 @@
 # NextWordPrediction
-Predicting the next word based on the current word
+
+Predicting Next word based on Current word and Masked keyword prediction
