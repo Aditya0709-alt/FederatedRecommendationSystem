@@ -169,3 +169,23 @@ A federation text dataset and subsampled of reddit from LEAF for next-word predi
 The use of FederatedScope makes it easier to implement different algorithms like Federated Averaging, FedME, FedEM algorithms.
 
 
+## Results
+
+For demonstrating the results of our project , we used Wandb, also known as Weights and Biases. 
+
+Wandb provides several features that are useful in FL experiments. First, it allows tracking of the training progress of each client in the FL system, which can help identify any issues related to the training process. Second, it allows visualization of the performance of the model on different datasets, which can help identify any issues related to overfitting or underfitting. Third, it allows comparing the performance of different models trained on different datasets or with different hyperparameters.
+
+In addition to these features, Wandb also provides a dashboard where the progress of the experiments can be monitored in real-time. The dashboard provides several visualizations, such as accuracy plots, loss plots, and learning rate plots, which can help track the progress of the experiments and identify any issues in the training process.
+
+
+Also, the application developed for performing next word prediction is used for displaying the results. The performance of different algorithms can be viewed and analysed at one place. 
+
+<p align=center">
+
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992076-a4da7ed8-e75c-4713-8c47-3433c89d2b94.png">
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992102-84300e68-7479-453a-a513-f7722d8fa38d.png">
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992124-7161cd07-d9e1-40f9-869b-9cbd81f79712.png">
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992137-d8c4c34f-9d53-4450-9bad-35e619caf39d.png">
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992154-d53f3004-4816-4e5d-b398-879ef1577118.png">
+
+</p>
