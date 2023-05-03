@@ -111,14 +111,25 @@ Finally, the literature survey included a review of **Federated Social Recommend
 
 - HTML, CSS, BootStrap and JavaScript for Website
 
-<p align="center">
 
-![html](https://user-images.githubusercontent.com/77115883/235990233-cf973b4a-fb9d-4465-b068-965c9da83ee5.png)
+## Implementation
 
-![wandb](https://user-images.githubusercontent.com/77115883/235990323-834d5030-117a-4d69-acc4-d2bda482e97e.png)
+The project was implemented in multiple phases viz. creating the client-server cluster for connecting the applications, understanding and building a recommendation system model on top of FederatedScope, a modular framework for creating personalised and state-of-the-art machine learning models.
 
-![cuda](https://user-images.githubusercontent.com/77115883/235990769-00e1eaac-ae74-4827-8fef-fa4fe109d3fd.jpeg)
+For creating the cluster, we experimented with different approaches; using the physical systems in our laboratory as well as exploring virtual options like VirtualBox, VMWare, Proxmox, etc.
 
+For simulating a cluster physically, the FederatedScope architecture provides the distributed mode.
+The distributed mode in FederatedScope denotes running multiple procedures to build up an FL course, where each procedure plays as a participant (server or client) that instantiates its model and loads its data. The communication between participants is already provided by the communication module of FederatedScope.
 
+```shell
+# Firstly start the server that is waiting for clients to join in
+python federatedscope/main.py --cfg scripts/distributed_scripts/distributed_configs/distributed_server.yaml distribute.data_file toy_data/server_data distribute.server_host 127.0.0.1 distribute.server_port 50051
 
-</p>
+# Start the client #1 (with another process)
+python federatedscope/main.py --cfg scripts/distributed_scripts/distributed_configs/distributed_client_1.yaml distribute.data_file toy_data/client_1_data distribute.server_host 127.0.0.1 distribute.server_port 50051 distribute.client_host 127.0.0.1 distribute.client_port 50052
+# Start the client #2 (with another process)
+python federatedscope/main.py --cfg scripts/distributed_scripts/distributed_configs/distributed_client_2.yaml distribute.data_file toy_data/client_2_data distribute.server_host 127.0.0.1 distribute.server_port 50051 distribute.client_host 127.0.0.1 distribute.client_port 50053
+# Start the client #3 (with another process)
+python federatedscope/main.py --cfg scripts/distributed_scripts/distributed_configs/distributed_client_3.yaml distribute.data_file toy_data/client_3_data distribute.server_host 127.0.0.1 distribute.server_port 50051 distribute.client_host 127.0.0.1 distribute.client_port 50054
+```
+
