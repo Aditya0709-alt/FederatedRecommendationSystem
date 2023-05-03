@@ -82,5 +82,9 @@ Another paper that was reviewed was **Personalized Federated Learning using Hype
 Finally, the literature survey included a review of **Federated Social Recommendation with Graph Neural Network** by Liu et al. (2022). This paper proposed a novel framework for social recommendation using graph neural network (GNN) called FeSoG. The framework was designed to address three critical challenges in social recommendation, namely data sparsity, cold-start, and diversity. The paper showed that the proposed framework outperformed existing social recommendation algorithms in terms of accuracy and diversity.
 
 
+## Project Design
 
+<p align="center">
+<img width="372" alt="image" src="https://user-images.githubusercontent.com/77115883/235989091-9d44195e-e26d-4a9e-b034-8bfc0604881b.png">
+</p>
 
