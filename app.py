@@ -37,6 +37,17 @@ def get_prediction_mask():
         print(err)
         return app.response_class(response=json.dumps(err), status=500, mimetype='application/json')
 
+# app.route('/archi')
+# def get_archi():
+#     return render_template('archi.html')
+
+
+# app.route('/intro')
+# def get_archi():
+#     return render_template('intro.html')
+
+
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=8000, use_reloader=False)
