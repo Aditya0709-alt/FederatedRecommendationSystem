@@ -189,3 +189,43 @@ Also, the application developed for performing next word prediction is used for 
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992154-d53f3004-4816-4e5d-b398-879ef1577118.png">
 
 </p>
+
+
+## Conclusion
+
+In conclusion, the project aimed to address the challenges associated with data privacy and protection in federated learning. The scope of the project included solving the challenges of statistical and systems heterogeneity and privacy concerns. The project also aimed to create a client-server cluster for model training, implement the FedScope architecture on generalized and graph data, and develop a recommendation system based on the FedScope architecture.
+
+The literature survey revealed several relevant papers, including FederatedScope, FedBN, FedGNN, Personalized Federated Learning using Hypernetworks, and Federated Social Recommendation with Graph Neural Network. These papers presented various techniques and algorithms for addressing the challenges of federated learning and were instrumental in informing the design and implementation of the project.
+
+The use of the FedME model and FedEM federated learning algorithms, along with the WandB platform, helped in achieving the objectives of the project. The results showed that the project was successful in creating a secure and privacy-preserving federated learning system that could handle heterogeneous data and protect user privacy.
+
+Overall, the project demonstrated the feasibility of using federated learning for privacy-preserving data analysis and highlighted the potential for future research in this field.
+
+
+## Future Scope
+
+- Implementation of advanced privacy-preserving techniques: While the proposed solution addresses privacy concerns to a great extent, there is still room for improvement. Advanced techniques such as homomorphic encryption, differential privacy, or secure multi-party computation could be explored to enhance privacy and security.
+
+- Optimization of model performance: The proposed FederatedScope platform can benefit from optimization techniques to enhance the performance of the models. Techniques such as model compression, quantization, or pruning can be explored to reduce the size of models and improve their efficiency.
+
+- Integration with edge computing: The integration of the proposed solution with edge computing could enhance the performance and efficiency of the platform. This could involve exploring methods to distribute computation between the edge devices and cloud servers and optimize communication between them.
+
+- Exploration of new use cases: Federated learning has applications in several domains, including healthcare, finance, and smart cities. Further exploration of these domains and developing use cases for them could expand the scope of the project and help solve real-world problems.
+
+
+## Bibliography
+
+[1] Academy, Data Analytics and Intelligence Lab (DAIL) of DAMO. ‘FederatedScope’. FederatedScope, https://federatedscopeteam.github.io/. Accessed 3 May 2023.
+
+[2] University, Machine Learning Department, Carnegie Mellon. ‘Federated Learning: Challenges, Methods, and Future Directions’. Machine Learning Blog | ML@CMU | Carnegie Mellon University, 12 Nov. 2019, https://blog.ml.cmu.edu/2019/11/12/federated-learning-challenges-methods-and-future-directions/.
+
+[3] Federated Learning: Collaborative Machine Learning without Centralized Training Data. 6 Apr. 2017, https://ai.googleblog.com/2017/04/federated-learning-collaborative.html.
+
+[4] IBM Documentation. 2 May 2023, https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=models-federated-learning.
+
+[5] Wu, Chuhan, et al. ‘FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation’. Nature Communications, vol. 13, no. 1, June 2022, p. 3091. arXiv.org, https://doi.org/10.1038/s41467-022-30714-9.
+
+[6] Matsuda, Koji, et al. FedMe: Federated Learning via Model Exchange. arXiv, 15 Oct. 2021. arXiv.org, https://doi.org/10.48550/arXiv.2110.07868.
+
+
+
