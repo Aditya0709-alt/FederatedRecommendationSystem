@@ -15,7 +15,7 @@
 * [Literature Survey](#literature-survey)
 * [Project Design](#project-design)
 * [System Architecture](#system-architecture)
-* [Tech Stack](#tech-stack)
+* [Hardware/Software Requirements](#hardwaresoftware)
 * [Implementation](#implementation)
 * [Conclusion](#conclusion)
 
@@ -82,9 +82,42 @@ Another paper that was reviewed was **Personalized Federated Learning using Hype
 Finally, the literature survey included a review of **Federated Social Recommendation with Graph Neural Network** by Liu et al. (2022). This paper proposed a novel framework for social recommendation using graph neural network (GNN) called FeSoG. The framework was designed to address three critical challenges in social recommendation, namely data sparsity, cold-start, and diversity. The paper showed that the proposed framework outperformed existing social recommendation algorithms in terms of accuracy and diversity.
 
 
-## Project Design
+## System Architecture
 
 <p align="center">
 <img width="372" alt="image" src="https://user-images.githubusercontent.com/77115883/235989091-9d44195e-e26d-4a9e-b034-8bfc0604881b.png">
 </p>
 
+
+## Project Design
+
+<p align="center">
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/77115883/235989786-116ba191-549b-4ef2-8271-7e29fabcb566.png">
+</p>
+
+<p align="center">
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/77115883/235989728-2a513e41-4dc3-4048-88a3-4361c4c80349.png">
+</p>
+
+
+## Hardware/Software Requirements
+
+- Language: Python with ML Libraries such as Tensorflow, 
+        NLTK, rdkit, numpy, PyTorch and more 
+
+- WanDB for logging results 
+
+- PaperSpace and Cuda for Computation
+
+- HTML, CSS, BootStrap and JavaScript for Website
+
+<p align="center">
+![html](https://user-images.githubusercontent.com/77115883/235990233-cf973b4a-fb9d-4465-b068-965c9da83ee5.png)
+
+![wandb](https://user-images.githubusercontent.com/77115883/235990323-834d5030-117a-4d69-acc4-d2bda482e97e.png)
+
+![cuda](https://user-images.githubusercontent.com/77115883/235990769-00e1eaac-ae74-4827-8fef-fa4fe109d3fd.jpeg)
+
+
+
+</p>
