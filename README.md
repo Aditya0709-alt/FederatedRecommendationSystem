@@ -9,6 +9,7 @@
 # Table of Contents
 
 * [Background](#background)
+* [Problem Statement](#ps)
 * [Objective](#objective)
 * [Scope](#scope)
 * [Literature Survey](#literature-survey)
@@ -29,7 +30,16 @@ In addition, centralizing data for training can raise privacy and security conce
 
 Federated learning addresses these challenges by enabling the training of models across multiple devices or servers, without the need to centralize the data. Instead of transmitting the data to a central location, the model is trained locally on each device or server, and only the model updates are transmitted to a central location for aggregation.
 
-![image](https://user-images.githubusercontent.com/77115883/235986543-f1b04c94-ca7f-4b9a-be18-e70f371e2449.png)
+
+## Problem Statement
+
+At first sight, both federated learning and classical distributed learning share a similar goal of minimizing the empirical risk over distributed entities. However, there are fundamental challenges associated with solving the above objective in the federated settings, as we describe below.
+
+- Expensive Communication
+- Systems Heterogeneity
+- Statistical Heterogeneity
+- Privacy Concerns
+
 
 
 
