@@ -1,5 +1,5 @@
 <p align="center">
-<img width="394" alt="Screenshot 2023-05-03 at 10 21 27 PM" src="https://user-images.githubusercontent.com/77115883/235985781-3535a20e-61f3-46d9-8a6a-d66605dfc906.png">
+![amazonscience-federatedlearning](https://user-images.githubusercontent.com/77115883/235994095-b8fd7889-8de9-439e-9839-b5fda1b6cea3.gif)
 </p>
 
 
