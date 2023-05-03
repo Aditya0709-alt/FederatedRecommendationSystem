@@ -183,10 +183,15 @@ In addition to these features, Wandb also provides a dashboard where the progres
 Also, the application developed for performing next word prediction is used for displaying the results. The performance of different algorithms can be viewed and analysed at one place. 
 
 <p align=center">
+
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992076-a4da7ed8-e75c-4713-8c47-3433c89d2b94.png">
+
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992102-84300e68-7479-453a-a513-f7722d8fa38d.png">
+
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992124-7161cd07-d9e1-40f9-869b-9cbd81f79712.png">
+
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992137-d8c4c34f-9d53-4450-9bad-35e619caf39d.png">
+
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/77115883/235992154-d53f3004-4816-4e5d-b398-879ef1577118.png">
 </p>
 
