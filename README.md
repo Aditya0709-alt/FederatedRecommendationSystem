@@ -133,3 +133,39 @@ python federatedscope/main.py --cfg scripts/distributed_scripts/distributed_conf
 python federatedscope/main.py --cfg scripts/distributed_scripts/distributed_configs/distributed_client_3.yaml distribute.data_file toy_data/client_3_data distribute.server_host 127.0.0.1 distribute.server_port 50051 distribute.client_host 127.0.0.1 distribute.client_port 50054
 ```
 
+The above commands are used for generating a toy dataset for easily building model benchmarks. Then, the server is started and by entering the IP address and port for the system. 
+
+```shell
+INFO: Server: Listen to x.x.x.x:xxxx...
+INFO: Server has been set up ...
+Model meta-info: <class 'federatedscope.core.lr.LogisticRegression'>.
+... ...
+INFO: Client: Listen to x.x.x.x:xxxx...
+INFO: Client (address x.x.x.x:xxxx) has been set up ...
+Client (address x.x.x.x:xxxx) is assigned with #1.
+INFO: Model meta-info: <class 'federatedscope.core.lr.LogisticRegression'>.
+... ...
+{'Role': 'Client #2', 'Round': 0, 'Results_raw': {'train_avg_loss': 5.215108394622803, 'train_loss': 333.7669372558594, 'train_total': 64}}
+{'Role': 'Client #1', 'Round': 0, 'Results_raw': {'train_total': 64, 'train_loss': 290.9668884277344, 'train_avg_loss': 4.54635763168335}}
+----------- Starting a new training round (Round #1) -------------
+... ...
+INFO: Server: Training is finished! Starting evaluation.
+INFO: Client #1: (Evaluation (test set) at Round #20) test_loss is 30.387419
+... ...
+INFO: Server: Final evaluation 
+```
+
+These are the results obtained once the clients start listening to the server and start generating training results. 
+
+The datasets used are: 
+
+- Shakespeare
+A federation text dataset of Shakespeare Dialogues from LEAF [1] for next-character prediction, which contains 422,615 sentences and about 1,100 clients.
+
+- subReddit
+A federation text dataset and subsampled of reddit from LEAF for next-word prediction, which contains 216,858 sentences and about 800 clients.
+
+
+The use of FederatedScope makes it easier to implement different algorithms like Federated Averaging, FedME, FedEM algorithms.
+
+
