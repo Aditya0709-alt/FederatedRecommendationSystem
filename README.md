@@ -112,6 +112,7 @@ Finally, the literature survey included a review of **Federated Social Recommend
 - HTML, CSS, BootStrap and JavaScript for Website
 
 <p align="center">
+
 ![html](https://user-images.githubusercontent.com/77115883/235990233-cf973b4a-fb9d-4465-b068-965c9da83ee5.png)
 
 ![wandb](https://user-images.githubusercontent.com/77115883/235990323-834d5030-117a-4d69-acc4-d2bda482e97e.png)
