@@ -5,9 +5,9 @@
 </p>
 
 
-<b align="center">
-Empowering personalised recommendations while preserving privacy
-</b>
+<p align="center">
+<b>Empowering personalised recommendations while preserving privacy</b>
+</p>
 
 
 <h1 align="center">Federated Recommendation System </h3>
