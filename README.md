@@ -64,3 +64,23 @@ We aim to implement the following during the course of our project:
 - Implement FedScope Architecture on generalised dataset 
 - Implement FedScope Architecture on graph data 
 - Develop a Recommendation System based on FedScope Architecture
+
+
+
+## Literature Survey
+
+The literature survey conducted for this project included a review of several papers related to Federated Learning (FL). FL is a machine learning technique that enables multiple clients to collaborate on training a shared model without having to share their raw data with each other or with a central server. This technique is particularly useful in situations where data privacy is a concern or where the data is distributed across different locations.
+
+One paper that was reviewed as part of the literature survey was **FederatedScope: A Flexible Federated Learning Platform for Heterogeneity** by Xie et al. (2023). This paper proposed a novel FL platform called FederatedScope that uses an event-driven architecture to express the behaviors of servers and clients independently from a global perspective. The platform was designed to address the challenge of heterogeneity, which is a common issue in FL where clients have different data distributions or feature spaces. The paper demonstrated that FederatedScope achieved better performance than existing FL platforms in terms of accuracy and communication efficiency.
+
+Another paper that was reviewed was **FedBN: Federated Learning on Non-IID Features via Local Batch Normalization** by Li (2021). This paper proposed an algorithm to deal with statistical heterogeneity in FL. The algorithm, called FedBN, uses local batch normalization to adjust for differences in feature distributions across clients. The paper showed that FedBN outperformed existing FL algorithms, such as FedAvg and FedProx, in terms of convergence speed and accuracy.
+
+The literature survey also included a review of **FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation** by Chuhan et al. (2021). This paper proposed a federated framework for privacy-preserving graph neural network (GNN) based recommendation. The framework allowed each user client to locally train their own GNN model while protecting their privacy through differential privacy techniques. The paper demonstrated that the proposed framework achieved comparable performance to existing centralized recommendation systems while maintaining privacy.
+
+Another paper that was reviewed was **Personalized Federated Learning using Hypernetworks** by Shamsian (2021). This paper proposed a method for personalized federated learning using hypernetworks, which are small neural networks applied to a target network. The method allowed each client to learn a personalized model while minimizing the communication overhead. The paper demonstrated that the proposed method achieved better performance than existing FL algorithms in terms of both accuracy and communication efficiency.
+
+Finally, the literature survey included a review of **Federated Social Recommendation with Graph Neural Network** by Liu et al. (2022). This paper proposed a novel framework for social recommendation using graph neural network (GNN) called FeSoG. The framework was designed to address three critical challenges in social recommendation, namely data sparsity, cold-start, and diversity. The paper showed that the proposed framework outperformed existing social recommendation algorithms in terms of accuracy and diversity.
+
+
+
+
