@@ -1,5 +1,7 @@
 <p align="center">
+
 ![amazonscience-federatedlearning](https://user-images.githubusercontent.com/77115883/235994095-b8fd7889-8de9-439e-9839-b5fda1b6cea3.gif)
+
 </p>
 
 
